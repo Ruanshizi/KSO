@@ -1,0 +1,5 @@
+E:\二学年\个人毕业项目\Thegraduationproject\Model\bin\Debug\Model.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Model\bin\Debug\Model.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\二学年\个人毕业项目\Thegraduationproject\Model\obj\Debug\Model.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Model\obj\Debug\Model.pdb

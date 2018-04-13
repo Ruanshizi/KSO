@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MianMaster.master.cs" Inherits="Thegraduationproject.MianMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>KSO口红生活馆暨官网</title>
+    <link href="public/css/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            border: solid 1px pink;
+            height: 100%;
+            vertical-align: top;
+            width: 100%;
+
+        }
+         .auto-style2 {
+            text-align: left;
+            /*border: solid 1px #e0c2c2;*/
+            height: 100%;
+            vertical-align: top;
+            width: 100%;
+        }
+          .auto-style3 {
+            text-align: left;
+            border: solid 1px #e0c2c2;
+            height: 105%;
+            vertical-align: top;
+            width:79.6%;
+            float:right;
+            right:0px;
+            /*margin-left:2px;*/
+        }
+          #heihei{
+              width:20%;
+              float:left;
+              border: solid 1px #e0c2c2;
+              text-align:center;
+          }
+    </style>
+</head>
+    
+<body>
+    <form id="form1" runat="server">
+        <div style="width:1006px;margin-left:100px;overflow:hidden;">
+        <div class="table" style="background-color:pink">
+                    <strong class="head" style="font-family:微软雅黑; font-size:50px; color:#0094ff">KSO口红官</strong>
+        </div>
+        <div id="heihei">
+            <div class="auto-style1">
+                <asp:HyperLink ID="Login" runat="server" NavigateUrl="~/Login.html">登录&nbsp;</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Login.html">注册&nbsp;</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Login.html">购物车&nbsp;</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Login.html">安全退出</asp:HyperLink>
+            </div>
+            <div class="auto-style2">
+                <asp:TreeView ID="trCategory" runat="server" DataSourceID="SiteMapDataSource1" LineImagesFolder="~/TreeLineImages" OnSelectedNodeChanged="trCategory_SelectedNodeChanged"></asp:TreeView>
+
+                
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div>
+        </div>
+            <div class="auto-style3">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder12" runat="server">
+                    首页:
+                </asp:ContentPlaceHolder>
+            </div>
+        <div class="auto-style3">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                <p>
+
+                </p>
+
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+        <div style="text-align:center;border:solid 1px pink">
+            <p>
+                <a href="Homepage.html"  target="_blank">KSO口红馆</a>所有版权</p>
+            <p>
+                服务热线：13160691002</p>
+        </div>
+    </form>
+</body>
+</html>

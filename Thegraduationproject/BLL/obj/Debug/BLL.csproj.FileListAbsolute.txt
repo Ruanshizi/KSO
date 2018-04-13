@@ -1,0 +1,10 @@
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\bin\Debug\BLL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\bin\Debug\BLL.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\bin\Debug\DAL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\bin\Debug\Model.dll
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\bin\Debug\DAL.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\bin\Debug\Model.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\obj\Debug\BLL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,34 @@
+﻿body {
+   font-size:14px;
+   text-align:center;   
+   background-color:#ECECEC;
+}
+.ltd {
+    width: 250px; 
+    border: solid 1px #e0c2c2;
+    text-align:left;
+    vertical-align:top;
+}
+.rtd
+{
+    text-align: left; 
+    border: solid 1px #e0c2c2; 
+    height: 100%;
+    vertical-align:top;
+}
+.table
+{
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 5px;
+}
+.head
+{
+    height: 80px; 
+    background-size: auto; 
+    background-image: url('/Image/top.jpg');
+}
+
+a{
+    text-decoration:none;
+}

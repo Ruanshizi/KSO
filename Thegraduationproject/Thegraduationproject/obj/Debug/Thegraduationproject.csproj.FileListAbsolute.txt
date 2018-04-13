@@ -1,0 +1,15 @@
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Thegraduationproject.dll.config
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Thegraduationproject.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Thegraduationproject.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\BLL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Model.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\DAL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\BLL.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Model.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\bin\DAL.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\obj\Debug\Thegraduationproject.csprojResolveAssemblyReference.cache
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\obj\Debug\Thegraduationproject.csproj.CoreCompileInputs.cache
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\obj\Debug\Thegraduationproject.dll
+E:\二学年\个人毕业项目\Thegraduationproject\Thegraduationproject\obj\Debug\Thegraduationproject.pdb

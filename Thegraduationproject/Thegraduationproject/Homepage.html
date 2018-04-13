@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" type="text/css" href="public/style.css" />
+
+    <script type="text/javascript" src="public/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+            var _this1 = null;
+            $('.nav>li').hover(function () {
+                _this1 = $(this);
+                _this1.find('.second-nav').show();
+                var _this2 = null;
+                _this1.find('.second-nav').find('li').hover(function () {
+                    _this2 = $(this);
+                    _this2.find('.third-nav').show();
+                    _this2.find('.third-nav').hover(function () {
+                        $(this).show();
+                    }, function () {
+                        $(this).hide();
+                    });
+                }, function () {
+                    _this2.find('.third-nav').hide();
+                });
+            }, function () {
+                _this1.find('.second-nav').hide();
+            });
+        });
+    </script>
+    <style>
+
+        div.two {
+            margin-top: 15px;
+            text-align: center;
+            font-size:22px;
+            font-weight:600;
+        }
+
+        div.img {
+            margin: 50px;
+            /*border: 1px solid #ccc;*/
+            float: left;
+            width: 200px;
+        }
+
+            div.img:hover {
+                border: 1px solid #777;
+            }
+
+            div.img img {
+                width: 100%;
+                height: 50px auto;
+            }
+
+        div.desc {
+            /*padding: 15px;*/
+            text-align: center;
+        }
+        div.long {
+            /*margin-top: 15px;*/
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            border: medium double rgb(250,0,255);
+        }
+
+        /*h4{
+            text-align:center;
+            font-weight:bold;
+            margin: 20px 0 0 0;
+        }
+        .picbox{
+            width:260px;
+            height:200px;
+            background-color:#e8e8e8;
+            float:left;
+            margin: 20px 0 0 35px;
+        }*/
+    </style>
+  
+
+</head>
+<body>
+
+
+
+    <!--头部-->
+    <div class="header">
+        <!--菜单栏ul-->
+        <ul class="nav">
+            <!--主菜单-->
+            <li>
+                <a href="Default.aspx">全部产品</a>
+                <!--子菜单-->
+                <ul class="second-nav">
+                    <li>
+                        <a href="indexTxt.aspx">文件</a>
+                        <!--子菜单里在嵌一个子菜单-->
+                        <!--<ul class="third-nav">
+        <li><a href="#">子菜单1-1</a></li>
+        <li><a href="#">子菜单1-2</a></li>
+        <li><a href="#">子菜单1-3</a></li>
+    </ul>-->
+                    </li>
+                </ul>
+            </li>
+
+            <!--主菜单-->
+            <li>
+                <a href="#">热卖产品</a>
+                <!--子菜单-->
+                <ul class="second-nav">
+                    <li><a href="#">子菜单2</a></li>
+                    <li><a href="#">裤子</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">彩妆艺术</a>
+                <ul class="second-nav">
+                    <li>
+                        <a href="#">子菜单3</a>
+                        <ul class="third-nav">
+                            <li><a href="#">子菜单3-1</a></li>
+                            <li><a href="#">子菜单3-2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">衣服</a></li>
+                </ul>
+            </li>
+            <li><a href="#">品牌故事</a></li>
+            <li style="float:left"><a href="Login.html">登录|注册</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="public/img/5.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="public/img/4.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="public/img/4.jpg" alt="Third slide">
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">点击</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">点击2</span>
+        </a>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <div style="position:relative">
+        <div class="two">
+            新品快讯
+        </div>
+        <div class="img">
+            <a target="_blank" href="public/img/C.jpg">
+                <img src="public/img/C.jpg" alt="图片文本描述" width="300" height="200">
+            </a>
+            <div class="desc"></div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="public/img/D.jpg">
+                    <img src="public/img/D.jpg" alt="图片文本描述" width="300" height="200">
+                </a>
+                <div class="desc"></div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="public/img/E.jpg">
+                    <img src="public/img/E.jpg" alt="图片文本描述" width="300" height="200">
+                </a>
+                <div class="desc"></div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="public/img/F.jpg">
+                    <img src="public/img/F.jpg" alt="图片文本描述" width="300" height="200">
+                </a>
+                <div class="desc"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--<h4> 新品快讯</h4>
+    <div class="picbox">
+        <a href="javascript:;">
+            <img src="public/img/C.jpg" alt="Alternate Text" />
+        </a>
+    </div>
+    <div class="picbox">
+        <a href="javascript:;">
+            <img src="public/img/D.jpg" alt="Alternate Text" />
+        </a>
+    </div>
+    <div class="picbox">
+        <a href="javascript:;">
+            <img src="public/img/E.jpg" alt="Alternate Text" />
+        </a>
+    </div>
+    <div class="picbox">
+        <a href="javascript:;">
+            <img src="public/img/F.jpg" alt="Alternate Text" />
+        </a>
+    </div>-->
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('#carouselExampleIndicators').carousel({ interval: 1000 });
+    });
+</script>

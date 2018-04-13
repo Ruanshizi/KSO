@@ -1,0 +1,8 @@
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\bin\Debug\DAL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\bin\Debug\DAL.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\bin\Debug\Model.dll
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\bin\Debug\Model.pdb
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\obj\Debug\DAL.dll
+E:\二学年\个人毕业项目\Thegraduationproject\DAL\obj\Debug\DAL.pdb
